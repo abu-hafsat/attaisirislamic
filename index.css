@@ -1,0 +1,190 @@
+@media screen and (max-width: 576px) {
+
+    #heading{
+        width: 200px;
+        margin: 30px auto;        
+    }
+
+    h2{
+        color: blue;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    
+    h3{
+        color: red;
+        text-align: center;
+        margin: 10px;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+
+    .motto{
+        color: blue;
+        font-family: sans-serif;
+        text-align: center;
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .dash{
+        width: 80px;
+        color: red;
+        margin: 0px auto;
+        border: 1px solid red;
+    
+    }
+
+    #name, #phone, #email, #dob, #school, #education, #time, #address, #course, #class, #quran{
+        border: 0px;
+        border-bottom: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+        padding: 5px;
+        margin: 20px;
+        width: 150px;
+        font-family: sans-serif;
+        align-self: center;
+    }
+
+    #form{
+        width: 200px;
+        margin: 20px auto;
+        justify-content: center;
+    }
+
+    #checkbox{
+        color: red;
+        font-family: sans-serif;
+        padding: 20px;
+    }
+    
+    #box{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        border: 1px;
+    }
+    
+    #submit{
+        padding: 10px;
+        width: 70px;
+        margin: 20px;
+        color: blue;
+        border-width: 0px;
+        border-bottom: 2px solid grey;
+        border-left: 2px solid grey;
+        border-radius: 2px;
+    }
+
+    #acpt1{
+        display: none;
+        text-align: center;
+        color: blue;
+    }
+
+    }
+
+h2{
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+h3{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+#heading{
+    width: 700px;
+    margin: auto;
+}
+
+#name, #phone, #email, #dob, #school, #education, #time, #address, #course, #class, #quran{
+    border-width: 0px;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 25px;
+    width: 150px;
+    font-family: sans-serif;
+}
+
+.dash{
+    width: 200px;
+    color: red;
+    margin: 20px auto;
+    border: 1px solid red;
+
+}
+
+.motto{
+    color: blue;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+#form{
+    width: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#checkbox{
+    color: red;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#box{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: 1px;
+}
+
+#submit{
+    padding: 10px;
+    width: 70px;
+    margin: 20px;
+    color: blue;
+    border-width: 0px;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-radius: 2px;
+    display: none;
+}
+#submit1{
+    padding: 10px;
+    width: 70px;
+    margin: 20px;
+    color: blue;
+    border-width: 0px;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-radius: 2px;
+}
+
+#acpt1, #acpt2, #acpt3, #acpt4, #acpt5, #acpt6, #acpt7, #acpt8, #acpt9, #acpt10, #acpt11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: none;
+    color: blue;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 300px;
+}
+
+#tex1, #tex2, #tex3, #tex4, #tex5, #tex6, #tex7, #tex8, #tex9, #tex10, #tex11{
+color: gray;
+font-family: sans-serif;
+}
